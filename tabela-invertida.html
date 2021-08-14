@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela em linha/invertida</title>
+</head>
+
+<body>
+    <table border="1">
+        <caption>Cursos do Senac</caption>
+        <tr>
+            <!-- Criando a linha-->
+            <th>Livros</th>
+            <!--titulo da tabela-->
+            <td>Excel 2013</td>
+            <!--dados -->
+            <td>HTML5/CSS</td>
+            <!--dados -->
+
+        </tr>
+        <tr>
+            <th>Quantidade</th>
+            <td>200</td>
+            <td>180</td>
+        </tr>
+
+    </table>
+    <hr>
+    <h1>Tabela com Colspan - Mesclando colunas
+
+        <table border="1">
+            <tr>
+                <th colspan="2">Célula expandida em várias colunas</th>
+                    <!--colspan = 2 - > mesclando 2 colunas -->
+            </tr>
+            <tr>
+                <td> Exemplo de colspan </td>
+                <td> 50 </td>
+            </tr>
+            <tr>
+                <td>Fevereiro</td>
+                <td>10</td>
+            </tr>
+
+        </table>
+
+        <hr>
+        <h1>Tabela com Rowspan</h1>
+        <table border="1">
+            <tr>
+                
+                <th>Mês</th>
+                <th>Valores</th>
+                <th>Exemplos de Rowspan</th>
+            </tr>
+            <tr>
+                <td>Janeiro</td>
+                <td>30</td>
+                <td rowspan="2">Célula expandida em várias linhas</td>
+                
+                <tr>
+                    
+                        <td>Fevereiro</td>
+                        <td>15</td>
+                        
+                    
+                </tr>
+            </tr>
+
+
+        </table>
+</body>
+
+</html>
